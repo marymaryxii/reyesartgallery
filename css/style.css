@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+@font-face{
+    src: url(../fonts/AdreenaScript-Demo.ttf);
+    font-family: "ad";
+}
+@font-face{
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-family: "li";
+}
+.top-container{
+    background-color: #87f8e9;
+}
+.profile{
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.name{
+    margin-top: 15%;
+    margin-right: 11%;
+    float: right;
+    font-size: 60px;
+    font-family: ad;
+    display: inline-block;
+    color: rgb(250, 64, 95);
+}
+.bio{
+    float: right;
+    margin-top: 0;
+    font-size: 20px;
+    margin-right: 15%;
+    line-height: 20px;
+    display: inline-block;
+    font-family: georgia;
+}
+
+.icon{
+    width: 60px;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+.mid{
+    background-color: #c4ffff;
+}
+.img{
+    width: 300px;
+    height: 400px;
+    margin-left: 4%;
+    margin-top: 8%;
+    margin-right: 4%
+}
+.description{
+    padding-right: 30%;
+    padding-left: 30%;
+    font-size: 20px;
+    line-height: 50px;
+    font-family: li;
+}
+.line{
+    border-style: dotted;
+}
+.icon:hover{
+    background-color: wheat;
+    border-radius: 50%;
+    padding: 2px;
+}
+.foot{
+    font-size: 15px;
+    text-align: center;
+    background-color: #fdcf76;
+}
